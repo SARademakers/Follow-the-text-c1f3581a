@@ -1,0 +1,13 @@
+div.icon {
+    position: fixed;
+    top: 5%;
+    right: 35%;
+}
+
+div.icon:hover + .tooltip-content {
+    position: fixed;
+    width: 20%;
+    top: 8%;
+    background-color: black;
+    color: white;
+}
